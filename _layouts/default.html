@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% if page.title %}{% assign page_title = page.title | append: " · " | append: site.title %}{% else %}{% assign page_title = site.title | append: " · " | append: site.tagline %}{% endif %}
+  {% assign page_desc = page.description | default: site.description | strip_newlines %}
+  {% assign share_image = page.image | default: "/assets/img/speedball.jpg" %}
+  <title>{{ page_title }}</title>
+  <meta name="description" content="{{ page_desc }}">
+  <link rel="canonical" href="{{ site.url }}{{ page.url | replace: 'index.html', '' }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ page_title }}">
+  <meta property="og:description" content="{{ page_desc }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url | replace: 'index.html', '' }}">
+  <meta property="og:image" content="{{ site.url }}{{ share_image }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lexend:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="/"><span class="brand-mark" aria-hidden="true"></span>Adam Carter-Groves</a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="/#systems">Systems</a>
+        <a href="/#work">Work</a>
+        <a href="/#personal">Personal projects</a>
+        <a href="/#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>© {{ site.time | date: "%Y" }} Adam Carter-Groves</p>
+      <p>
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        <span aria-hidden="true">·</span>
+        <a href="{{ site.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    // Respect reduced-motion: stop the gameplay loops and give the viewer controls instead.
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      document.querySelectorAll("video[autoplay]").forEach(function (v) {
+        v.removeAttribute("autoplay");
+        v.pause();
+        v.controls = true;
+      });
+    }
+  </script>
+</body>
+</html>

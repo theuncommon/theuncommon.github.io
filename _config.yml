@@ -1,4 +1,11 @@
-theme: jekyll-theme-tactile
-name: Adam Carter-Groves
 title: Adam Carter-Groves
-description: A Game Designer with well formatted code.
+tagline: Senior Game System Designer
+description: >-
+  Adam Carter-Groves, Senior Game System Designer. Progression, economy,
+  metagame and AI systems for games including Speedball, Worms Rumble and Overcooked 2.
+url: https://theuncommon.co.uk
+email: theuncommon56@gmail.com
+linkedin: https://www.linkedin.com/in/theuncommon/
+
+exclude:
+  - README.md
