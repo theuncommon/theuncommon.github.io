@@ -1,22 +1,36 @@
 ---
 layout: default
+title: Death by Misadventure
+description: >-
+  Death by Misadventure is the name Adam Carter-Groves uses for personal projects:
+  turn-based games with narrative elements.
+image: /assets/img/death-and-tax-evasion.jpg
 ---
-<body>
-    <p>
-        <img src="DBM Logo.png" alt="Death by Misadventure">
+<section class="section">
+  <div class="wrap narrow">
+    <img class="dbm-logo" src="/assets/img/dbm-logo.png" alt="Death by Misadventure" width="860" height="430">
+    <p class="eyebrow">Memento mori as a service</p>
+    <h1 class="page-title">Death by Misadventure</h1>
+    <p class="section-intro">
+      Death by Misadventure is the name I use for my personal projects: turn-based games
+      with narrative elements, board game mechanics in single-player games, and possibly
+      also a game about tiny tanks.
     </p>
-    <h2>
-        Memento Mori as a Service
-    </h2>
-    <p>
-        Death by Miadventure is the name I work under for my personal projects. Making turn based games with narrative elements, and possibly also a game about tiny tanks?
+  </div>
+  <div class="wrap">
+    <div class="clips">
+      {% for p in site.data.projects.personal %}
+      <figure class="clip">
+        <video src="{{ p.video }}" poster="{{ p.poster }}" autoplay muted loop playsinline preload="metadata" aria-label="{{ p.title }} gameplay"></video>
+        <figcaption><strong>{{ p.title }}</strong> {{ p.text }}</figcaption>
+      </figure>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="wrap narrow">
+    <p class="links">
+      <a href="https://www.facebook.com/people/Death-By-Misadventure/100083275205487/" target="_blank" rel="noopener">Death by Misadventure on Facebook →</a>
+      <a href="/">Back to my portfolio →</a>
     </p>
-    <p>
-        <img src="DaTE Turn.gif"><img src="Goblincore.gif"><img src="tank gameplay.gif">
-    </p>
-    <p>
-        I can be found on social media at:<br/>
-        <a href="https://twitter.com/DthMisadventure">https://twitter.com/DthMisadventure</a></br>
-        <a href="https://www.facebook.com/people/Death-By-Misadventure/100083275205487/">https://www.facebook.com/people/Death-By-Misadventure/100083275205487</a>
-    </p>
-</body>
+  </div>
+</section>

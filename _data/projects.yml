@@ -1,0 +1,122 @@
+# Projects shown on the home page.
+# "featured" get a large write-up; "more" appear as smaller cards underneath.
+# To add a project, copy an entry and change the fields. Images live in assets/img/.
+
+featured:
+  - id: speedball
+    title: Speedball
+    studio: Rebellion North
+    role: Senior Game Designer
+    engine: Unreal Engine 5
+    image: /assets/img/speedball.jpg
+    image_alt: Speedball gameplay screenshot
+    link: https://store.steampowered.com/app/1795190/Speedball/
+    tags: [System design, Economy, Metagame, AI, Mentorship]
+    summary: >-
+      As a senior system and AI designer on Speedball, I owned the game's systems,
+      metagame and AI, and implemented them myself in Unreal.
+    points:
+      - Designed the game systems and economy, and the metagame that ties matches together.
+      - Designed and implemented the AI in Unreal Engine 5.
+      - Prototyped features and created content for the game.
+      - Wrote and maintained design documentation, and helped plan sprints.
+      - Mentored the junior designers on the team.
+
+  - id: worms-rumble
+    title: Worms Rumble
+    studio: Team17
+    role: Game Designer
+    engine: Unreal Engine
+    image: /assets/img/worms-rumble.jpg
+    image_alt: Worms Rumble gameplay screenshot
+    link: https://store.steampowered.com/app/1186040/Worms_Rumble/
+    tags: [Progression design, Weapon design, Level design, Data implementation]
+    summary: >-
+      I joined Worms Rumble early in development and owned its progression system,
+      taking it from first design through modelling and iteration.
+    points:
+      - Designed, modelled and iterated on the player progression system.
+      - Set up reward and config data in Unreal to drive progression and rewards.
+      - Concepted weapons for the arsenal.
+      - Designed one of the game's maps and built the Lab Modes.
+
+  - id: overcooked
+    title: "Overcooked! 2: Night of the Hangry Horde & Carnival of Chaos"
+    studio: Team17
+    role: Game Designer
+    engine: Unity
+    image: /assets/img/overcooked-carnival-of-chaos.jpg
+    image_alt: Overcooked 2 Carnival of Chaos screenshot
+    link: https://store.steampowered.com/app/1138400/Overcooked_2__Carnival_of_Chaos/
+    link_label: Carnival of Chaos on Steam
+    link2: https://store.steampowered.com/app/1017510/Overcooked_2__Night_of_the_Hangry_Horde/
+    link2_label: Night of the Hangry Horde on Steam
+    tags: [Mechanic design, Level design, Balancing, Concepting]
+    summary: >-
+      I worked on two DLC expansions for Overcooked! 2, balancing game modes on one
+      and designing new mechanics and most of the levels on the other.
+    points:
+      - "Night of the Hangry Horde: joined late in development to balance and iterate on levels and the new mode."
+      - "Carnival of Chaos: pitched new mechanics and themes for the expansion."
+      - "Carnival of Chaos: designed most of the expansion's levels."
+
+more:
+  - title: Achtung! Cthulhu Tactics
+    studio: Auroch Digital
+    image: /assets/img/achtung-cthulhu-tactics.jpg
+    link: https://store.steampowered.com/app/874460/Achtung_Cthulhu_Tactics/
+    tags: [Lead design, Combat, Progression]
+    text: >-
+      Sole designer from first prototype to release. I concepted and prototyped the
+      turn-based combat system, and designed the progression system, character
+      abilities, campaign structure, levels and story beats.
+
+  - title: Mars Horizon
+    studio: Auroch Digital
+    image: /assets/img/mars-horizon.jpg
+    link: https://store.steampowered.com/app/765810/Mars_Horizon/
+    tags: [System design]
+    text: >-
+      Designed the mission system, making missions play differently depending on
+      their payload, and worked on the endgame and several other systems.
+
+  - title: Honey, I Joined a Cult
+    studio: Team17 (publishing)
+    image: /assets/img/honey-i-joined-a-cult.jpg
+    link: https://store.steampowered.com/app/841190/Honey_I_Joined_a_Cult/
+    tags: [Economy, Progression, Game structure]
+    text: >-
+      Started as a design consultant and became the main designer, working on the
+      economy, progression and overall structure with the developers.
+
+  - title: Going Under
+    studio: Team17 (publishing)
+    image: /assets/img/going-under.jpg
+    link: https://store.steampowered.com/app/1154810/Going_Under/
+    tags: [Design consultancy]
+    text: >-
+      Design consultant for the publisher: reported on the game's progress, gave
+      advice on mechanics, and acted as the design department's eyes on the project.
+
+  - title: Astronimo
+    studio: Coatsink
+    image: /assets/img/astronimo.jpg
+    link: https://store.steampowered.com/app/1808640/Astronimo/
+    tags: [Level design, Puzzle design, Game structure]
+    text: >-
+      Designed levels and puzzles with in-house terrain and interaction tools, and
+      restructured sections into chains of missions that feed into each other.
+
+personal:
+  - title: Death and Tax Evasion
+    video: /assets/video/death-and-tax-evasion.mp4
+    poster: /assets/img/death-and-tax-evasion.jpg
+    text: A turn-based card game.
+  - title: Goblincore
+    video: /assets/video/goblincore.mp4
+    poster: /assets/img/goblincore.jpg
+    text: A turn-based prototype.
+  - title: Tanks
+    video: /assets/video/tanks.mp4
+    poster: /assets/img/tanks.jpg
+    text: A game about tiny tanks.
