@@ -22,6 +22,23 @@ featured:
       - Wrote and maintained design documentation, and helped plan sprints.
       - Mentored the junior designers on the team.
 
+  - id: achtung-cthulhu-tactics
+    title: Achtung! Cthulhu Tactics
+    studio: Auroch Digital
+    role: Sole Game Designer
+    image: /assets/img/achtung-cthulhu-tactics.jpg
+    image_alt: Achtung! Cthulhu Tactics key art
+    link: https://store.steampowered.com/app/874460/Achtung_Cthulhu_Tactics/
+    tags: [Lead design, Combat design, Progression design, Campaign structure, Level design]
+    summary: >-
+      I was the sole designer on this turn-based strategy game, from the first
+      prototype through to release, responsible for all of its design work.
+    points:
+      - Concepted and prototyped the turn-based combat system.
+      - Designed the progression system and the characters' abilities.
+      - Designed the campaign structure and mapped out the story beats.
+      - Designed the game's levels.
+
   - id: worms-rumble
     title: Worms Rumble
     studio: Team17
@@ -59,23 +76,6 @@ featured:
       - "Night of the Hangry Horde: joined late in development to balance and iterate on levels and the new mode."
       - "Carnival of Chaos: pitched new mechanics and themes for the expansion."
       - "Carnival of Chaos: designed most of the expansion's levels."
-
-  - id: achtung-cthulhu-tactics
-    title: Achtung! Cthulhu Tactics
-    studio: Auroch Digital
-    role: Sole Game Designer
-    image: /assets/img/achtung-cthulhu-tactics.jpg
-    image_alt: Achtung! Cthulhu Tactics key art
-    link: https://store.steampowered.com/app/874460/Achtung_Cthulhu_Tactics/
-    tags: [Lead design, Combat design, Progression design, Campaign structure, Level design]
-    summary: >-
-      I was the sole designer on this turn-based strategy game, from the first
-      prototype through to release, responsible for all of its design work.
-    points:
-      - Concepted and prototyped the turn-based combat system.
-      - Designed the progression system and the characters' abilities.
-      - Designed the campaign structure and mapped out the story beats.
-      - Designed the game's levels.
 
 more:
   - title: Mars Horizon
