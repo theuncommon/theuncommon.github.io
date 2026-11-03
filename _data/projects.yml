@@ -116,7 +116,7 @@ personal:
     video: /assets/video/goblincore.mp4
     poster: /assets/img/goblincore.jpg
     text: A turn-based prototype.
-  - title: Tanks
+  - title: Tiny Tanks
     video: /assets/video/tanks.mp4
     poster: /assets/img/tanks.jpg
     text: A game about tiny tanks.
