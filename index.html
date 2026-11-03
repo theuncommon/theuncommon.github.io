@@ -88,7 +88,7 @@ layout: default
         <img src="{{ p.image }}" alt="{{ p.image_alt }}" loading="lazy" width="1280" height="720">
       </a>
       <div class="feature-body">
-        <p class="meta">{{ p.studio }} · {{ p.role }} · {{ p.engine }}</p>
+        <p class="meta">{{ p.studio }} · {{ p.role }}{% if p.engine %} · {{ p.engine }}{% endif %}</p>
         <h3>{{ p.title }}</h3>
         <p>{{ p.summary }}</p>
         <ul class="points">

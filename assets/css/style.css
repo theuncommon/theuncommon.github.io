@@ -164,7 +164,7 @@ p { margin: 0 0 1em; }
 }
 
 /* More projects */
-.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 22px; }
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 22px; }
 .card { background: var(--card); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); display: flex; flex-direction: column; }
 .card-media img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
 .card-body { padding: 20px 22px 8px; display: flex; flex-direction: column; flex: 1; }
