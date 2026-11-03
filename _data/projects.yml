@@ -60,17 +60,24 @@ featured:
       - "Carnival of Chaos: pitched new mechanics and themes for the expansion."
       - "Carnival of Chaos: designed most of the expansion's levels."
 
-more:
-  - title: Achtung! Cthulhu Tactics
+  - id: achtung-cthulhu-tactics
+    title: Achtung! Cthulhu Tactics
     studio: Auroch Digital
+    role: Sole Game Designer
     image: /assets/img/achtung-cthulhu-tactics.jpg
+    image_alt: Achtung! Cthulhu Tactics key art
     link: https://store.steampowered.com/app/874460/Achtung_Cthulhu_Tactics/
-    tags: [Lead design, Combat, Progression]
-    text: >-
-      Sole designer from first prototype to release. I concepted and prototyped the
-      turn-based combat system, and designed the progression system, character
-      abilities, campaign structure, levels and story beats.
+    tags: [Lead design, Combat design, Progression design, Campaign structure, Level design]
+    summary: >-
+      I was the sole designer on this turn-based strategy game, from the first
+      prototype through to release, responsible for all of its design work.
+    points:
+      - Concepted and prototyped the turn-based combat system.
+      - Designed the progression system and the characters' abilities.
+      - Designed the campaign structure and mapped out the story beats.
+      - Designed the game's levels.
 
+more:
   - title: Mars Horizon
     studio: Auroch Digital
     image: /assets/img/mars-horizon.jpg
